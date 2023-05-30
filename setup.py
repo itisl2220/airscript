@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '0.0.1'
+VERSION = '0.0.3'
 DESCRIPTION = 'airscript Type derivation package'
 
 setup(
@@ -14,5 +14,10 @@ setup(
     packages=find_packages(),
     keywords=['python', "airscript"],
     license="MIT",
+classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
     url="https://github.com/itisl2220/airscript",
 )
