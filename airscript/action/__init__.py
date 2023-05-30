@@ -14,3 +14,9 @@ def click(x: int | graphics.Point, y=None, dur=20) -> None:
 # 滑动
 def slide(x: int, y: int, y1: int, dur=20) -> None:
     pass
+
+
+def input(data: str) -> None:
+    pass
+
+
