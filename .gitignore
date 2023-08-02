@@ -1,0 +1,4 @@
+/dist/
+build/
+.idea/
+airscript.egg-info/
