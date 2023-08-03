@@ -1,7 +1,7 @@
 from typing import Any
 
 
-def toast(msg: str, duration: int = 2, x=-1, y=-1) -> None:
+def toast(msg: str, duration: int = 3, x=-1, y=-1) -> None:
     pass
 
 
@@ -51,9 +51,16 @@ class promat:
     def close(self):
         pass
 
-    def show(self, pyfun: Any):
+    def show(self, pyfun: Any = None):
         pass
 
 
+class loger:
+    def __init__(self):
+        pass
 
+    def show(self, pyfun: Any = None):
+        pass
 
+    def title(self, title: str) -> 'loger':
+        pass
