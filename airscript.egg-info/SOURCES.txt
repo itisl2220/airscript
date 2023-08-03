@@ -15,6 +15,7 @@ airscript/graphics/__init__.py
 airscript/intent/__init__.py
 airscript/node/__init__.py
 airscript/screen/__init__.py
+airscript/system/Prgogress.py
 airscript/system/__init__.py
 airscript/ui/__init__.py
 airscript/ui/dialog.py
