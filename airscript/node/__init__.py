@@ -5,10 +5,10 @@ class Selector:
     def __init__(self, mode: int = 0):
         pass
 
-    def find(self):
+    def find(self) -> 'Node':
         return Node()
 
-    def find_all(self):
+    def find_all(self) -> '[Node]':
         return [Node()]
 
     def id(self, nid: str):
@@ -27,6 +27,9 @@ class Selector:
         return self
 
     def packageName(self, npackageName: str):
+        return self
+
+    def path(self, pathstr: str):
         return self
 
     def inputType(self, ntype: int):
